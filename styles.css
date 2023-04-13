@@ -34,7 +34,10 @@ li {
   background-image: url(/assets/700x700_720.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center -190px;
+  background-position: 0 -70px;
+  background-size: contain;
+  width: 100%;
+  
   
 
 }
@@ -56,7 +59,7 @@ h1 {
   column-gap: 20px;
   padding: 0 5rem;
 }
-.menu-item {
+.menu-list div {
   padding: 0 1rem 1rem;
   page-break-inside: avoid;
 }
